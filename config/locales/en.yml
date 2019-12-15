@@ -1,0 +1,28 @@
+en:
+    app_title: "Football League"
+    app_description: "This web app allows the user to record game results and various stats for the weekend league."
+
+    home:
+      home:
+        title: 'Football League Home'
+        page_description: 'The idea of this page is to be the home page of the application.'
+
+      contact:
+        title: 'Contact Us'
+        contact_us: 'Complete the form below to get in touch with us!'
+        name: "Name:"
+        enter_name: Enter your name
+        email: "Email:"
+        enter_email: Enter your email address
+        telephone: "Telephone:"
+        enter_telephone: Enter your telephone number
+        message: "Message:"
+        enter_message: What do you want to
+        submit: "Submit"
+
+      _header:
+        welcome: 'Welcome to my coursework'
+
+      request_contact:
+      no_email: You must supply an email address
+      email_sent: Thank you. We will be in touch

@@ -1,0 +1,14 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  level: first team
+  no_of_players: 5
+  division: premier
+  id: 1
+
+two:
+  #level string has to be unique due to validations made
+  level: second team
+  no_of_players: 5
+  division: championship
+  id: 2

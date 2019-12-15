@@ -1,0 +1,25 @@
+%h1 Listing mens_teams
+
+%table
+  %thead
+    %tr
+      %th Level
+      %th No of players
+      %th Division
+      %th
+      %th
+      %th
+
+  %tbody
+    - @mens_teams.each do |mens_team|
+      %tr
+        %td= mens_team.level
+        %td= mens_team.no_of_players
+        %td= mens_team.division
+        %td= link_to 'Show', mens_team
+        %td= link_to 'Edit', edit_mens_team_path(mens_team)
+        %td= link_to 'Destroy', mens_team, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Mens team', new_mens_team_path
