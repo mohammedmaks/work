@@ -14,14 +14,21 @@ en:
         enter_name: Enter your name
         email: "Email:"
         enter_email: Enter your email address
-        telephone: "Telephone:"
+        telephone: 'Telephone:'
         enter_telephone: Enter your telephone number
-        message: "Message:"
+        message: 'Message:'
         enter_message: What do you want to
-        submit: "Submit"
+        submit: 'Submit'
 
       _header:
-        welcome: 'Welcome to my coursework'
+        welcome: Welcome to my coursework
+        profile: 'Profile'
+        logout: 'Logout'
+        login: 'Login'
+        signup: Sign Up
+
+      _footer:
+        MyWebsite: Created by Liman Makama
 
       request_contact:
       no_email: You must supply an email address
